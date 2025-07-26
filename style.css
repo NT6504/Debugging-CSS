@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px; /* Add some  */
+    background-color: #f8f8f8;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.container {
+    display: flex; /* Use Flexbox to arrange boxes in a row */
+    justify-content: center; /* Center the boxes horizontally within the container */
+    
+    gap: 20px; /* Adds space between flex items (the boxes) */
+    padding: 20px;
+    background-color: #e0e0e0;
+    border: 2px dashed #999;
+    margin-bottom: 30px; /* Space below the container */
+    
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    border: 1px solid black;
+    display: flex; /* Use flexbox to center content inside the box */
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.text {
+    /* Removed: left: 50%; -- use text-align for centering */
+    /* Removed: top: 0; */
+    text-align: center; /* Center the text horizontally */
+    padding: 15px;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 5px;
+    margin-top: 30px; /* Add space above the text */
+   
+    
+}
